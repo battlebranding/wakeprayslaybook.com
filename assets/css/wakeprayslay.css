@@ -1,0 +1,183 @@
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 30px;
+  font-size: 48px; }
+
+h3 {
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 1px;
+  font-weight: 300; }
+
+p {
+  font-size: 18px;
+  line-height: 1.8;
+  font-family: 'Open Sans', sans-serif; }
+
+section {
+  padding: 80px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.button {
+  padding: 20px;
+  display: inline-block;
+  border-radius: 7px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  text-align: 1px;
+  text-decoration: none;
+  border: none; }
+
+#intro {
+  background-color: #333;
+  min-height: 700px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff; }
+  #intro h2 {
+    font-size: 48px;
+    color: #ff6599;
+    line-height: 1.3;
+    font-family: 'Abril Fatface', cursive; }
+  #intro .author-button {
+    background-color: #5bd3f9;
+    width: 380px;
+    text-align: center;
+    font-size: initial;
+    color: #fff; }
+
+#contribute {
+  background-color: #8f0045;
+  color: #fff; }
+  #contribute h2 {
+    margin-bottom: 50px; }
+  #contribute .highlight {
+    color: #ffc600; }
+  #contribute .row {
+    max-width: 1000px;
+    margin: 0 auto; }
+
+#about h2 {
+  color: #0f6480;
+  font-family: 'Abril Fatface', cursive; }
+#about .highlight {
+  background-color: #ff6599;
+  color: #fff;
+  padding: 4px 7px; }
+
+#become h2 {
+  color: #ffc600; }
+#become .highlight {
+  background-color: #ff6599;
+  color: #fff;
+  padding: 4px 7px; }
+#become #request-info-button {
+  background-color: #ffc600;
+  color: #333;
+  margin-top: 15px;
+  width: 380px; }
+#become a {
+  font-weight: bold;
+  color: inherit;
+  color: #ff6599; }
+
+#become-form {
+  background-color: #ffc600;
+  max-width: 1070px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 7px; }
+  #become-form input {
+    background-color: transparent;
+    height: 44px;
+    min-width: 300px;
+    border: 0;
+    color: #fff;
+    font: inherit;
+    margin: 0 10px;
+    border-bottom: 1px solid #333;
+    border-radius: 0;
+    font-size: 18px;
+    padding-left: 0;
+    padding-right: 0; }
+    #become-form input::-webkit-input-placeholder {
+      color: #a78201; }
+    #become-form input:-moz-placeholder {
+      color: #a78201; }
+    #become-form input::-moz-placeholder {
+      color: #a78201; }
+    #become-form input:-ms-input-placeholder {
+      color: #a78201; }
+    #become-form input::-moz-focus-inner {
+      border: 0;
+      padding: 0; }
+    #become-form input:focus {
+      outline: none; }
+  #become-form .button {
+    background-color: #a78201;
+    color: #fff;
+    margin-top: 15px; }
+
+#the-author {
+  background-color: #ff6599;
+  color: #fff; }
+  #the-author h2 {
+    font-family: 'Abril Fatface', cursive; }
+  #the-author a {
+    color: #ffc600; }
+
+footer {
+  padding: 40px 80px;
+  color: #fff;
+  background-color: #333; }
+  footer p {
+    font-size: 12px; }
+  footer a {
+    color: #CCC; }
+  footer #af-form-1696313202 {
+    background-color: transparent;
+    max-width: 100%; }
+    footer #af-form-1696313202 .af-standards {
+      overflow: hidden;
+      max-width: 730px;
+      margin: 0 auto; }
+      footer #af-form-1696313202 .af-standards .af-element {
+        float: left;
+        padding-left: 10px;
+        padding-right: 10px; }
+      footer #af-form-1696313202 .af-standards .privacyPolicy {
+        display: none; }
+      footer #af-form-1696313202 .af-standards .buttonContainer {
+        padding-top: 24px; }
+        footer #af-form-1696313202 .af-standards .buttonContainer .image {
+          max-height: 42px; }
+      footer #af-form-1696313202 .af-standards label.previewLabel {
+        font-size: 14px; }
+      footer #af-form-1696313202 .af-standards input.text {
+        background-color: #CCC;
+        border-radius: 7px;
+        color: #333;
+        padding-left: 15px; }
+
+@media only screen and (max-width: 600px) {
+  section,
+  footer {
+    padding: 40px 20px; }
+
+  img,
+  .button {
+    max-width: 100%; }
+
+  #the-author p {
+    background-color: #ff6599;
+    color: #fff;
+    padding: 7px; }
+
+  #af-form-1696313202 .af-standards .af-element {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    text-align: left; } }
+
+/*# sourceMappingURL=wakeprayslay.css.map */
